@@ -1,39 +1,31 @@
-Raksha Pipes Business Analyst Assignment
-
-Table of Contents
-
-Project Overview
-
-Data Generation
-
-Database Design
-
-Dashboard Creation
-
-Setup Instructions
-
-Presentation
-
-Project Overview
-
-This assignment focuses on building a data management and visualization system for Raksha Pipes. It involves generating realistic data using Python, designing a MySQL database, and creating an interactive dashboard in Power BI to showcase key business metrics.
-
-
-Data Generation
-
-The data_generation/ folder contains Python scripts to generate fake data for product types, customer details, and sales information. The script generate_data.py is used for this purpose.
-
-
-Database Design
-
-The database_scripts/ folder contains SQL scripts for creating and populating the MySQL database. The create_tables.sql script sets up the schema with eight related tables, while insert_data.sql populates these tables with the generated data.
-
-
-Dashboard Creation
-
-The dashboard/ folder contains the Power BI dashboard file raksha_dashboard.pbix. It visualizes sales trends, product performance, and customer profiles, allowing for interactive data exploration.
-
-
-Presentation
-
-The presentation/ folder contains the video recording of the project presentation, explaining each step in detail.
+Raksha Pipes Database and Dashboard
+This project showcases the integration of Python, SQL, and Power BI for efficient data analysis
+and visualization. It demonstrates how these tools can be used together to manipulate, query, and
+visualize data from various sources.
+Project Description:
+Step 1: Fake Data Generation(Python)
+Purpose: Generate synthetic data using Python libraries like faker to simulate customer, order, and
+supplier information.
+Method:
+ Utilize Python scripts to generate realistic-looking data.
+ Use libraries such as faker to create data for customers, orders, orderdetails, products,
+shippers, payments, categories, and suppliers.
+Step 2: Database Creation(SQL)
+Purpose: Store the generated fake data in a SQL database for structured storage and querying.
+Method:
+ Execute the Raksha_Database.sql script to create the database schema.
+ Import the synthetic data into the MySQL Workbench.
+Step 2: Power BI Dashboard
+Purpose: Create interactive dashboards and reports in Power BI to visualize the data stored in the
+SQL database
+Method:
+ Connect Power BI to the SQL database
+ Import necessary tables into Power BI for analysis.
+ Design visualizations (e.g., bar charts, line charts, KPI cards) to analyze key metrics and
+trends.
+ Arrange visualizations on the dashboard canvas to provide actionable insights to
+stakeholders.
+The Raksha Pipes Project demonstrates end-to-end data processing, from synthetic data generation
+using Python to database creation and visualization in Power BI. It highlights the seamless
+integration of these technologies to enable data-driven decision-making and insights for
+stakeholders.
